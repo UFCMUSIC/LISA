@@ -36,15 +36,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TEAM-ISTKHAR/ISTKHAR",
+    "https://github.com/UFCMUSIC/LISA",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/THUNDER_SUPPROT")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+PaEtaAu9DI9mYzc9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TAMANNA_MUSIC_BOT?start=_tgr_twVEmfIxZWY1")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TAMANNA_MUSIC_BOT?start=_tgr_twVEmfIxZWY1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -85,21 +85,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/7gsz5e.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/mccc35.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/4e4449251cf24214e3756-9ddd9b60fb0c9cafae.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/mccc35.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org//file/3dfcffd0c218ead96b102.png"
-STATS_IMG_URL = "https://envs.sh/WJ-.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/mccc35.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/mccc35.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/mccc35.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/mccc35.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/mccc35.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/mccc35.jpg"
+YOUTUBE_IMG_URL = "hhttps://files.catbox.moe/mccc35.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/mccc35.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/mccc35.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/mccc35.jpg"
 
 
 def time_to_seconds(time):
